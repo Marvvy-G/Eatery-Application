@@ -1,0 +1,77 @@
+<%- include("partials/normal") %>
+
+<div class="mt-5 pt-3">
+     <div class="row">
+        <h1 style="text-align: center;">
+            Sign Up to order
+        </h1>
+
+        <div style="width: 30%; margin: 30px auto; ">
+            <!-- display errors -->
+            <form action="/signup" method="POST">
+                <div class="form-group">
+                    <label class="form-label" for="firstName">First Name</label>
+                    <input 
+                    class="form-control" 
+                    type="text" 
+                    name="firstname" 
+                    placeholder="firstname" 
+                    >
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="lastname">Last Name</label>
+                    <input 
+                    class="form-control" 
+                    type="text" 
+                    name="lastname" 
+                    placeholder="lastname"
+                    >
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="email">Email</label>
+                    <input 
+                    class="form-control" 
+                    type="text" 
+                    name="email" 
+                    placeholder="email" 
+                    >
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="address">Address</label>
+                    <input 
+                    class="form-control" 
+                    type="text" 
+                    name="address" 
+                    placeholder="address" 
+                    >
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="number">Phone Nmber</label>
+                    <input 
+                    class="form-control" 
+                    type="text" 
+                    name="number" 
+                    placeholder="phone number"
+                     >
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="password">Password</label>
+                    <input 
+                    class="form-control" 
+                    type="password" 
+                    name="password" 
+                    placeholder="password" 
+                    >
+                </div>
+                
+                <br>
+               <div class="form-group" >
+                   <a href="/home" class="btn btn-dark back">Back</a>
+                    <button class="btn btn-warning">Submit</button>
+               </div>
+                </form>
+        </div>
+     </div>
+</div>
+
+<%- include("partials/footer") %>   
