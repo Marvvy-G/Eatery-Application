@@ -16,6 +16,7 @@
   
   .sidebar-nav{
     width: var(--offcanvas-width);
+    color: #fff;
   }
   
   .sidebar-link{
@@ -34,6 +35,7 @@
       aria-expanded="true"]
   .right-icon{
         transform: rotate(180deg);
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
       }
     
   
