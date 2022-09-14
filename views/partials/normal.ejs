@@ -15,17 +15,37 @@
       
     <section id="header-2" class="bg-dark">
         <div class="container">
-            <nav class="navbar navbar-expand-lg ">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
                 <div class="container">
-                    <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><span class="navbar-toggler-icon">
-                    </span></button>
-                    <a href="/home" class="navbar-brand">Marvvy Eats</a>
-                    <button class="navbar-toggler" type="button" 
-                    data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse" 
-                    aria-controls="navbarSupportedContent" aria-expanded="false" 
+                      <!-- offcanvas trigger -->
+         <button 
+         class="navbar-toggler me-2" 
+         type="button" 
+         data-bs-toggle="offcanvas" 
+         data-bs-target="#offcanvasWithBothOptions" 
+         aria-controls="offcanvasWithBothOptions">
+         <span 
+             class="navbar-toggler-icon" 
+             data-bs-target="#offcanvasExample" 
+         ></span>
+     </button>
+     <!-- offcanvas trigger -->
+                    <a href="/home" class="navbar-brand">je mange</a>
+                    
+                    <button 
+                    class="navbar-toggler me-2" 
+                    type="button" 
+                    data-bs-toggle="collapse" 
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false" 
                     aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+                    <span 
+                    class="navbar-toggler-icon"
+                    data-bs-target="#navbarSupportedContent"
+                    ></span>
+                </button>
+                
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item">
